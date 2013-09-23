@@ -16,6 +16,9 @@
 		3F5B66BA17F0AE6F00E1532E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B66B917F0AE6F00E1532E /* Default.png */; };
 		3F5B66BC17F0AE6F00E1532E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B66BB17F0AE6F00E1532E /* Default@2x.png */; };
 		3F5B66BE17F0AE6F00E1532E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B66BD17F0AE6F00E1532E /* Default-568h@2x.png */; };
+		3F5B66C517F0AE7F00E1532E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5B66C417F0AE7F00E1532E /* CoreLocation.framework */; };
+		3F5B66C817F0AEB000E1532E /* Park.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B66C717F0AEB000E1532E /* Park.m */; };
+		3F5B66CB17F0C92F00E1532E /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B66C917F0AED800E1532E /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		3F5B66B917F0AE6F00E1532E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F5B66BB17F0AE6F00E1532E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F5B66BD17F0AE6F00E1532E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F5B66C417F0AE7F00E1532E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F5B66C617F0AEB000E1532E /* Park.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Park.h; sourceTree = "<group>"; };
+		3F5B66C717F0AEB000E1532E /* Park.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Park.m; sourceTree = "<group>"; };
+		3F5B66C917F0AED800E1532E /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5B66C517F0AE7F00E1532E /* CoreLocation.framework in Frameworks */,
 				3F5B66A817F0AE6F00E1532E /* UIKit.framework in Frameworks */,
 				3F5B66AA17F0AE6F00E1532E /* Foundation.framework in Frameworks */,
 				3F5B66AC17F0AE6F00E1532E /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +59,10 @@
 		3F5B669B17F0AE6F00E1532E = {
 			isa = PBXGroup;
 			children = (
+				3F5B66C917F0AED800E1532E /* data.plist */,
+				3F5B66C617F0AEB000E1532E /* Park.h */,
+				3F5B66C717F0AEB000E1532E /* Park.m */,
+				3F5B66C417F0AE7F00E1532E /* CoreLocation.framework */,
 				3F5B66AD17F0AE6F00E1532E /* NPF-2 */,
 				3F5B66A617F0AE6F00E1532E /* Frameworks */,
 				3F5B66A517F0AE6F00E1532E /* Products */,
@@ -155,6 +167,7 @@
 				3F5B66BA17F0AE6F00E1532E /* Default.png in Resources */,
 				3F5B66BC17F0AE6F00E1532E /* Default@2x.png in Resources */,
 				3F5B66BE17F0AE6F00E1532E /* Default-568h@2x.png in Resources */,
+				3F5B66CB17F0C92F00E1532E /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				3F5B66B417F0AE6F00E1532E /* main.m in Sources */,
 				3F5B66B817F0AE6F00E1532E /* NPF_2AppDelegate.m in Sources */,
+				3F5B66C817F0AEB000E1532E /* Park.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Park.h"
 
 @interface NPF_2AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableArray *parks;
+
+
 
 @end
